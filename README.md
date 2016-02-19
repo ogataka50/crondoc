@@ -27,7 +27,7 @@ Available options are:
 	-s --stdin		generate crontab document from stdin
 ```
 
-## document exsample
+## document example
 
 it will be such an output ....
 
