@@ -44,7 +44,7 @@ HOME=/
 0 10 * * 1 sh /home/hoge/happy_monday.sh prod
 ```
 
-***
+↓↓↓
 
 ### Environment variable
  - SHELL=/bin/bash
