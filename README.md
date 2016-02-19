@@ -31,21 +31,26 @@ Available options are:
 
 it will be such an output ....
 
+```bash
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+HOME=/
+
+# @title monday.sh
+# @author hoge
+# @param env[dev|stg|prod]
+# start every monday
+0 10 * * 1 sh /home/hoge/happy_monday.sh prod
+```
+
 ***
+
+### Environment variable
  - SHELL=/bin/bash
  - PATH=/sbin:/bin:/usr/sbin:/usr/bin
  - MAILTO=root,hoge@mail.co.jp
  - HOME=/
-
-
- ## run-parts
-
-| min|hour|day|month|day week|command |
-|:---|:---|:---|:---|:---|:---|
-| 01| *| *| *| *| `root run-parts /etc/cron.hourly` |
-| 02| 4| *| *| *| `root run-parts /etc/cron.daily` |
-| 22| 4| *| *| Sun| `root run-parts /etc/cron.weekly` |
-| 42| 4| 1| *| *| `root run-parts /etc/cron.monthly` |
 
 ## monday.sh
 
