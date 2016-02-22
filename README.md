@@ -25,6 +25,7 @@ Available options are:
 	-v --version	print versions
 	-h --help		print help
 	-s --stdin		generate crontab document from stdin
+	-n				except output comment out line
 ```
 
 ## document exsample
