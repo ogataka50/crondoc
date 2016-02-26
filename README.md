@@ -11,8 +11,8 @@ generate crontab document tool
 ## Usage
 
 ```
-$ crodoc /etc/crontab
-$ crontab -l | crodoc -s
+$ crondoc /etc/crontab
+$ crontab -l | crondoc -s
 ```
 
 ```
