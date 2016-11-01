@@ -84,7 +84,7 @@ Go to the [releases page](https://github.com/ogataka50/crondoc/releases)
 To install, use `go get`:
 
 ```bash
-$ go get -d github.com/ogasawara_takahiro/crondoc
+$ go get -u github.com/ogataka50/crondoc
 ```
 
 ## Contribution
